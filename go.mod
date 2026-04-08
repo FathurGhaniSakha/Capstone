@@ -5,6 +5,8 @@ go 1.25.0
 require (
 	github.com/gofiber/fiber/v2 v2.52.12
 	github.com/lib/pq v1.11.2
+	github.com/redis/go-redis/v9 v9.18.0
+	github.com/sony/gobreaker v1.0.0
 )
 
 require (
@@ -17,7 +19,6 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c // indirect
-	github.com/redis/go-redis/v9 v9.18.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/tinylib/msgp v1.2.5 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
